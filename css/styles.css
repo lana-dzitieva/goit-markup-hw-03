@@ -90,6 +90,12 @@ body {
   color: #404bbf;
 }
 
+.nav-link,
+.address .link {
+  display: inline-block;
+  padding: 24px 0;
+}
+
 .nav-link {
   font-weight: 500;
   line-height: 1.5;
@@ -231,8 +237,6 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #2e2f42;
-  padding-top: 24px;
-  padding-bottom: 24px;
   margin-right: 76px;
 }
 
@@ -242,6 +246,13 @@ body {
 
 .logo-footer {
   color: #f4f4fd;
+}
+
+.header .logo,
+.nav-link,
+.address .link {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .hero {
@@ -277,6 +288,13 @@ body {
 
 .portfolio-title {
   margin-bottom: 8px;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .footer {
