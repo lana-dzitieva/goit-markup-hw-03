@@ -199,7 +199,6 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 
 .team-text {
@@ -214,7 +213,6 @@ body {
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   text-align: center;
-  padding-bottom: 32px;
   border-radius: 0 0 4px 4px;
 }
 
@@ -288,6 +286,11 @@ body {
 
 .portfolio-title {
   margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-text {
